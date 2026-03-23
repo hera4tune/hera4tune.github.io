@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Eric Chan | Portfolio</title>
 
   <!--
     - favicon
@@ -22,7 +22,7 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -36,19 +36,25 @@
     <!--
       - #SIDEBAR
     -->
-
+    <div class="background-art">
+        <img src="./assets/images/office_monochrome_2.jpg" alt="Background image">
+      </div>
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <div class="avatar-content">
+            <img src="./assets/images/eric-avatar.png" alt="Eric Chan" width="80">
+            <div class="profile-gradient"></div>
+            <!-- <div class="profile-border"></div> -->
+          </div>
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+          <h1 class="name" title="Eric Chan">Kevin Lee</h1>
 
-          <p class="title">Web developer</p>
+          <p class="title">Full Stack Developer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -74,7 +80,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+              <a href="mailto:max.group225@gmail.com" class="contact-link">max.group225@gmail.com</a>
             </div>
 
           </li>
@@ -82,27 +88,13 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
+              <ion-icon name="logo-github"></ion-icon>
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
+              <p class="contact-title">GitHub</p>
 
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 23, 1982</time>
+              <a href="https://github.com/runehand" class="contact-link" target="_blank" rel="noreferrer">runehand</a>
             </div>
 
           </li>
@@ -116,7 +108,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Sacramento, California, USA</address>
+              <address>Block 283 Bishan Street 22, Singapore</address>
             </div>
 
           </li>
@@ -128,20 +120,8 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://github.com/codingwizard0831" class="social-link" target="_blank" rel="noreferrer">
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
@@ -150,10 +130,6 @@
       </div>
 
     </aside>
-
-
-
-
 
     <!--
       - #main-content
@@ -182,20 +158,12 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
 
         </ul>
 
       </nav>
-
-
-
-
 
       <!--
         - #ABOUT
@@ -209,20 +177,15 @@
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            I am an extremely experienced professional with expertise in fullstack development. I possess over ten years of experience in Software Development. 
           </p>
-
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            The moment I wrote my first "Hello, World" I fell in love with development. Software development isn't just a job for me but a passion, a hobby, and a life-long pursuit. I am fully capable of working in both self-starting and collaborative environments and I am dedicated to optimizing both the user experience and technical performance to drive business success.
+          </p>
+          <p class="quote-block">
+            <q>You might not think that programmers are artists, but programming is an extremely creative profession.</q>
           </p>
         </section>
-
 
         <!--
           - service
@@ -230,38 +193,21 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">Skills</h3>
 
           <ul class="service-list">
 
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="./assets/images/icon-dev.svg" alt="web app icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+                <h4 class="h4 service-item-title">Web Applications</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                  Full-stack web apps with modern frameworks, scalable APIs, and performance-focused UX.
                 </p>
               </div>
 
@@ -274,10 +220,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+                <h4 class="h4 service-item-title">Mobile Apps</h4>
 
                 <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
+                  Cross-platform and native iOS/Android apps with smooth, reliable user experiences.
                 </p>
               </div>
 
@@ -286,227 +232,73 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <img src="./assets/images/icon-design.svg" alt="blockchain icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
+                <h4 class="h4 service-item-title">Blockchain & Web3</h4>
 
                 <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
+                  dApps, wallet integrations, and smart contracts with a focus on usability and security.
                 </p>
               </div>
 
             </li>
 
-          </ul>
+            <li class="service-item">
 
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="ux icon" width="40">
               </div>
-            </li>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                <p class="service-item-text">
+                  Clean, user-centered interfaces that reduce friction and improve product clarity.
                 </p>
               </div>
 
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
             </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
           </ul>
+
+        </section>
+        <section class="skill">
+          <div class="experience-tech skills-tech">
+            <span class="tech-chip">JavaScript</span>
+            <span class="tech-chip">React.js</span>
+            <span class="tech-chip">Next.js</span>
+            <span class="tech-chip">Redux / Zustand</span>
+            <span class="tech-chip">r3f</span>
+            <span class="tech-chip">Tailwind CSS</span>
+            <span class="tech-chip">Figma</span>
+            <span class="tech-chip">MUI</span>
+            <span class="tech-chip">shadcn/ui</span>
+            <span class="tech-chip">Node.js</span>
+            <span class="tech-chip">TypeScript</span>
+            <span class="tech-chip">Nest.js</span>
+            <span class="tech-chip">Laravel</span>
+            <span class="tech-chip">MySQL</span>
+            <span class="tech-chip">MongoDB</span>
+            <span class="tech-chip">Vue.js</span>
+            <span class="tech-chip">Angular</span>
+            <span class="tech-chip">Python</span>
+            <span class="tech-chip">Django</span>
+            <span class="tech-chip">Flask</span>
+            <span class="tech-chip">FastAPI</span>
+            <span class="tech-chip">C#</span>
+            <span class="tech-chip">ASP.NET</span>
+            <span class="tech-chip">GitHub</span>
+            <span class="tech-chip">Web3</span>
+            <span class="tech-chip">Solidity</span>
+            <span class="tech-chip">React Native</span>
+            <span class="tech-chip">Flutter</span>
+            <span class="tech-chip">Swift / Xcode</span>
+          </div>
 
         </section>
 
       </article>
-
-
-
-
 
       <!--
         - #RESUME
@@ -532,41 +324,12 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+              <h4 class="h4 timeline-item-title">Bachelor Degree of Computer Science</h4>
 
-              <span>2007 — 2008</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
+              <span>2015 - 2018</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                National University of Singapore, Singapore.
               </p>
 
             </li>
@@ -579,7 +342,7 @@
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <ion-icon name="briefcase-outline"></ion-icon>
             </div>
 
             <h3 class="h3">Experience</h3>
@@ -588,118 +351,159 @@
           <ol class="timeline-list">
 
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
+              <h4 class="h4 timeline-item-title">Full Stack Developer - CRGPT</h4>
+              <button class="experience-period" type="button" aria-expanded="false">February 2024 - October 2024 (9 months)</button>
+              <p class="timeline-text">Built AI-driven product experiences across web, data, and Web3 systems with a focus on performance and scale.</p>
+              <div class="experience-details">
+                <div class="experience-section-title key">Key Achievements</div>
+                <ul class="experience-list">
+                  <li>Delivered responsive, accessibility‑aware UI with Tailwind CSS and design‑system alignment.</li>
+                  <li>Built AI features with Python services and Rust data pipelines for high‑throughput analytics.</li>
+                  <li>Implemented scalable Django modules and real‑time integrations using Supabase, Socket, and Convex.</li>
+                  <li>Integrated Web3 wallet flows and DEX/CEX connectivity with secure transaction handling.</li>
+                  <li>Designed multi‑database architecture, permissions, and reservation workflows for reliability at scale.</li>
+                  <li>Led sprint delivery, reviews, and mentoring to improve quality and velocity.</li>
+                  <li>Shipped an AI analytics dashboard ahead of schedule through cross‑functional coordination.</li>
+                </ul>
+                <div class="experience-section-title tech">Technologies Used</div>
+                <div class="experience-tech">
+                  <span class="tech-chip">Tailwind CSS</span>
+                  <span class="tech-chip">Python</span>
+                  <span class="tech-chip">Rust</span>
+                  <span class="tech-chip">Django</span>
+                  <span class="tech-chip">Supabase</span>
+                  <span class="tech-chip">Convex</span>
+                  <span class="tech-chip">Web3</span>
+                </div>
+              </div>
             </li>
 
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
+              <h4 class="h4 timeline-item-title">Frontend Developer - UpdatedAI</h4>
+              <button class="experience-period" type="button" aria-expanded="false">December 2023 - June 2024 (6 months)</button>
+              <p class="timeline-text">Delivered responsive React interfaces and optimized front-end performance for AI products.</p>
+              <div class="experience-details">
+                <div class="experience-section-title key">Key Achievements</div>
+                <ul class="experience-list">
+                  <li>Built responsive React interfaces optimized for cross‑browser performance.</li>
+                  <li>Applied ES6+, Webpack, and Babel for efficient bundling and modular architecture.</li>
+                  <li>Implemented Hooks/Context patterns for maintainable state management.</li>
+                  <li>Integrated REST APIs and WebSocket streams for real‑time UX.</li>
+                  <li>Used Tailwind CSS and Styled Components for consistent design execution.</li>
+                  <li>Improved load times with lazy loading, code splitting, and asset optimization.</li>
+                  <li>Partnered with UX and backend teams using Figma, Git, and JIRA to ship on schedule.</li>
+                </ul>
+                <div class="experience-section-title tech">Technologies Used</div>
+                <div class="experience-tech">
+                  <span class="tech-chip">React.js</span>
+                  <span class="tech-chip">Webpack</span>
+                  <span class="tech-chip">Babel</span>
+                  <span class="tech-chip">WebSocket</span>
+                  <span class="tech-chip">Tailwind CSS</span>
+                  <span class="tech-chip">Styled Components</span>
+                </div>
+              </div>
             </li>
 
             <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Blockchain Developer - YOC</h4>
+              <button class="experience-period" type="button" aria-expanded="false">October 2022 - December 2023 (1 year 3 months)</button>
+              <p class="timeline-text">Built Web3 interfaces and smart contracts for DEX/AMM systems across multiple chains.</p>
+              <div class="experience-details">
+                <div class="experience-section-title key">Key Achievements</div>
+                <ul class="experience-list">
+                  <li>Delivered cross‑platform Web3 UX with a strong focus on clarity and onboarding.</li>
+                  <li>Built dApp front ends with web3/ethers and real‑time socket updates.</li>
+                  <li>Developed and deployed Solidity smart contracts for DEX/AMM systems.</li>
+                  <li>Integrated multi‑chain support across NEAR, ERC, and BSC networks.</li>
+                </ul>
+                <div class="experience-section-title tech">Technologies Used</div>
+                <div class="experience-tech">
+                  <span class="tech-chip">React.js</span>
+                  <span class="tech-chip">Web3.js</span>
+                  <span class="tech-chip">Ethers.js</span>
+                  <span class="tech-chip">Solidity</span>
+                  <span class="tech-chip">Socket.io</span>
+                  <span class="tech-chip">NEAR</span>
+                  <span class="tech-chip">BSC</span>
+                  <span class="tech-chip">ERC</span>
+                </div>
+              </div>
+            </li>
 
-              <h4 class="h4 timeline-item-title">Web designer</h4>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Mobile Application Developer (Part-Time) - OJO</h4>
+              <button class="experience-period" type="button" aria-expanded="false">March 2023 - August 2024 (1 year 6 months)</button>
+              <p class="timeline-text">Created cross-platform mobile apps with modern UI and scalable backend integrations.</p>
+              <div class="experience-details">
+                <div class="experience-section-title key">Key Achievements</div>
+                <ul class="experience-list">
+                  <li>Built cross‑platform mobile apps with Flutter/React Native and consistent UX patterns.</li>
+                  <li>Designed responsive UI for diverse device sizes and resolutions.</li>
+                  <li>Integrated GCP services for auth, storage, and scalable backend workflows.</li>
+                  <li>Applied MVC/MVVM patterns to keep mobile codebases clean and maintainable.</li>
+                </ul>
+                <div class="experience-section-title tech">Technologies Used</div>
+                <div class="experience-tech">
+                  <span class="tech-chip">Flutter</span>
+                  <span class="tech-chip">React Native</span>
+                  <span class="tech-chip">GCP</span>
+                  <span class="tech-chip">MVC</span>
+                  <span class="tech-chip">MVVM</span>
+                </div>
+              </div>
+            </li>
 
-              <span>2010 — 2013</span>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Full Stack and Heavy Backend Developer - Askhandle</h4>
+              <button class="experience-period" type="button" aria-expanded="false">May 2022 - September 2022 (5 months)</button>
+              <p class="timeline-text">Built AI-powered support systems and backend services with cloud deployment workflows.</p>
+              <div class="experience-details">
+                <div class="experience-section-title key">Key Achievements</div>
+                <ul class="experience-list">
+                  <li>Built AI chat support with custom bot behavior and image analysis features.</li>
+                  <li>Engineered Python + PostgreSQL services for reliable, high‑throughput data handling.</li>
+                  <li>Deployed and operated AWS EC2 infrastructure with Cloudflare‑backed security.</li>
+                </ul>
+                <div class="experience-section-title tech">Technologies Used</div>
+                <div class="experience-tech">
+                  <span class="tech-chip">Python</span>
+                  <span class="tech-chip">PostgreSQL</span>
+                  <span class="tech-chip">AWS</span>
+                  <span class="tech-chip">Cloudflare</span>
+                  <span class="tech-chip">Ubuntu</span>
+                </div>
+              </div>
+            </li>
 
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Full Stack Developer - bettercallraul</h4>
+              <button class="experience-period" type="button" aria-expanded="false">September 2021 - March 2022 (7 months)</button>
+              <p class="timeline-text">Delivered full-stack web apps with React/Next.js, Node.js, and Web3 integrations.</p>
+              <div class="experience-details">
+                <div class="experience-section-title key">Key Achievements</div>
+                <ul class="experience-list">
+                  <li>Built React/Next.js interfaces with Tailwind CSS aligned to Figma designs.</li>
+                  <li>Developed Node.js backends with real‑time processing and CLI tooling.</li>
+                  <li>Integrated Web3 wallets and multi‑chain payment flows for secure transactions.</li>
+                </ul>
+                <div class="experience-section-title tech">Technologies Used</div>
+                <div class="experience-tech">
+                  <span class="tech-chip">React</span>
+                  <span class="tech-chip">Next.js</span>
+                  <span class="tech-chip">Tailwind CSS</span>
+                  <span class="tech-chip">Node.js</span>
+                  <span class="tech-chip">Web3</span>
+                </div>
+              </div>
             </li>
 
           </ol>
 
         </section>
 
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
+        
       </article>
-
-
-
-
 
       <!--
         - #PORTFOLIO
@@ -720,7 +524,7 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Web development</button>
             </li>
 
             <li class="filter-item">
@@ -728,7 +532,7 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Web design</button>
             </li>
 
           </ul>
@@ -752,7 +556,7 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Web development</button>
               </li>
 
               <li class="select-item">
@@ -760,7 +564,7 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Web design</button>
               </li>
 
             </ul>
@@ -769,166 +573,377 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
+            <li class="project-item active" data-filter-item data-category="web development" data-project-item>
+              <a href="#" class="project-link">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/alpinresorts.png" alt="ALPINRESORTS" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Finance</h3>
-
+                <h3 class="project-title">ALPINRESORTS</h3>
                 <p class="project-category">Web development</p>
-
               </a>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>ALPINRESORTS - Booking Web APP</h3>
+                  <p>
+                    Reworked the booking journey for faster trip planning, improved filter and date selection UX, and
+                    reduced checkout friction for international users. Built a scalable web architecture with Angular
+                    and ASP.NET, including clean API boundaries and optimized data loading for high-season traffic.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>4 Sep 2020</span></li>
+                    <li>Technologies used - <span>Angular, ASP.NET</span></li>
+                    <li>Role - <span>Web Developer</span></li>
+                    <!-- <li>View Online - <span><a href="https://www.alpinresorts.com/" target="_blank" rel="noreferrer">ALPINRESORTS</a></span></li> -->
+                  </ul>
+                </div>
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
+            <!-- <li class="project-item active" data-filter-item data-category="applications" data-project-item>
+              <a href="#" class="project-link">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/loki-mobile.png" alt="LOKO" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
+                <h3 class="project-title">LOKO</h3>
                 <p class="project-category">Applications</p>
-
               </a>
-            </li>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>LOKO - Food Delivery Platform</h3>
+                  <p>
+                    Delivered a real-time delivery experience with live order tracking, courier location updates, and
+                    event-based notifications. Implemented Firebase Authentication, Firestore, and FCM for secure user
+                    flows and real-time messaging, and integrated Stripe for reliable payment processing. Improved
+                    mobile UX by simplifying checkout and status visibility across the full order lifecycle.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>4 Sep 2020</span></li>
+                    <li>Technologies used - <span>React Native, Next.js, Django, Firebase, Socket.IO, Stripe</span></li>
+                    <li>Role - <span>Full Stack</span></li>
+                    <li>View Online - <span><a href="https://loko.delivery/" target="_blank" rel="noreferrer">Food Delivery APP</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </li> -->
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
+            <li class="project-item active" data-filter-item data-category="web design" data-project-item>
+              <a href="#" class="project-link">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/oyegifts.png" alt="OyeGift" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
+                <h3 class="project-title">OyeGift</h3>
                 <p class="project-category">Web design</p>
-
               </a>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>OyeGift - E-commerce</h3>
+                  <p>
+                    Built a responsive gifting platform with a stronger product discovery and checkout flow, focused on
+                    conversion and retention. Implemented payment gateway integrations, real-time customer chat, and
+                    admin CRM workflows to streamline order handling and support operations.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>4 May 2020</span></li>
+                    <li>Technologies used - <span>React, Headless UI, Tailwind</span></li>
+                    <li>Role - <span>Frontend Developer</span></li>
+                    <!-- <li>View Online - <span><a href="https://www.oyegifts.com/" target="_blank" rel="noreferrer">OyeGift</a></span></li> -->
+                  </ul>
+                </div>
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
+            <!-- <li class="project-item active" data-filter-item data-category="applications" data-project-item>
+              <a href="#" class="project-link">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./assets/images/lift-with-liv.png" alt="Lift with Liv" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
+                <h3 class="project-title">Lift with Liv</h3>
                 <p class="project-category">Applications</p>
-
               </a>
-            </li>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>Fitness (iOS, Android) - Lift with Liv</h3>
+                  <p>
+                    Developed cross-platform fitness features with a focus on smooth workout navigation, progress
+                    tracking, and high session reliability on both iOS and Android. Improved onboarding and day-to-day
+                    UX so users could move from signup to their first guided plan with minimal friction.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>14 Aug 2020</span></li>
+                    <li>Technologies used - <span>React Native</span></li>
+                    <li>Role - <span>Mobile APP Developer</span></li>
+                    <li>View Online - <span><a href="https://apps.apple.com/us/app/lift-with-liv/id1535814290?platform=iphone" target="_blank" rel="noreferrer">iOS</a></span>, <span><a href="https://apps.apple.com/us/app/lift-with-liv/id1535814290?platform=iphone" target="_blank" rel="noreferrer">Android</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </li> -->
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
+            <li class="project-item active" data-filter-item data-category="web development" data-project-item>
+              <a href="#" class="project-link">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <img src="./assets/images/cryptogpt.png" alt="CryptoGPT" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
+                <h3 class="project-title">CryptoGPT</h3>
                 <p class="project-category">Web development</p>
-
               </a>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>CryptoGPT - AI Trading Service</h3>
+                  <p>
+                    Designed core platform architecture for a high-throughput AI trading product, including modular
+                    services, multi-environment deployment workflows, and resilient data pipelines. Integrated payment
+                    workflows and CEX/DEX connectivity while delivering responsive dashboards for strategy execution
+                    and real-time portfolio monitoring.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>15 Jan 2024</span></li>
+                    <li>Technologies used - <span>Next.js, Tailwind, MUI, Supabase, Convex, Django, Rust</span></li>
+                    <li>Role - <span>Frontend, Backend, DevOps Engineer</span></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications" data-project-item>
+              <a href="#" class="project-link">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/coffee-book-ios.png" alt="Coffee Book" loading="lazy">
+                </figure>
+                <h3 class="project-title">Coffee Book</h3>
+                <p class="project-category">Applications</p>
+              </a>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>Coffee Book (iOS APP) - App for all fans of coffee and books</h3>
+                  <p>
+                    Built an iOS social app that combines discovery, community reviews, and personalized recommendations
+                    for coffee and books. Improved content navigation and interaction patterns, and used Firebase-backed
+                    services to support reliable user data, sharing flows, and community engagement features.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>4 Dec 2020</span></li>
+                    <li>Technologies used - <span>Swift, Firebase</span></li>
+                    <li>Role - <span>Mobile APP Developer</span></li>
+                    <li>View Online - <span><a href="https://apps.apple.com/ua/app/coffee-book/id1512681263?l=uk" target="_blank" rel="noreferrer">Coffee Book</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development" data-project-item>
+              <a href="#" class="project-link">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/starswap.png" alt="Starswap" loading="lazy">
+                </figure>
+                <h3 class="project-title">Starswap</h3>
+                <p class="project-category">Web development</p>
+              </a>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>Starswap - DEX on EVM</h3>
+                  <p>
+                    Implemented a user-focused DeFi experience for token swaps on Astar, with wallet connection,
+                    transaction feedback, and gas-aware interactions. Built and integrated smart-contract flows while
+                    improving UX around approvals, slippage settings, and on-chain status visibility.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>4 June 2021</span></li>
+                    <li>Technologies used - <span>Vue.js, Web3.js, Solidity</span></li>
+                    <li>Role - <span>Web3 and Smart Contract Developer</span></li>
+                    <!-- <li>View Online - <span><a href="https://starswap.net/" target="_blank" rel="noreferrer">Starswap</a></span></li> -->
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <!-- <li class="project-item active" data-filter-item data-category="applications" data-project-item>
+              <a href="#" class="project-link">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/car-leasing-ios.png" alt="Car leasing" loading="lazy">
+                </figure>
+                <h3 class="project-title">Car leasing</h3>
+                <p class="project-category">Applications</p>
+              </a>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>Shopping APP (iOS APP) - Car leasing</h3>
+                  <p>
+                    Built a mobile-first leasing flow that lets customers configure vehicles, compare plans, and complete
+                    applications without dealership visits. Improved end-user UX with faster search and quote updates,
+                    and implemented API and socket-based logic for responsive pricing and application status updates.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>4 Apr 2021</span></li>
+                    <li>Technologies used - <span>Flutter, Graphql, Socket</span></li>
+                    <li>Role - <span>Mobile APP Developer</span></li>
+                    <li>View Online - <span><a href="https://apps.apple.com/us/app/carblip-your-car-delivered/id1362042544" target="_blank" rel="noreferrer">Car leasing</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </li> -->
+
+            <li class="project-item active" data-filter-item data-category="web development" data-project-item>
+              <a href="#" class="project-link">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/kinghill.png" alt="KINGHILLS" loading="lazy">
+                </figure>
+                <h3 class="project-title">KINGHILLS</h3>
+                <p class="project-category">Web development</p>
+              </a>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>KINGHILLS - Booking Web & Mobile APP</h3>
+                  <p>
+                    Delivered a full travel ecosystem across web, mobile, and admin portals with coordinated booking,
+                    payment, and CRM modules. Improved trip planning UX, added live tracking for operational visibility,
+                    and designed cross-platform architecture to keep traveler and staff workflows in sync.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>4 Sep 2020</span></li>
+                    <li>Technologies used - <span>Bootstrap 4</span></li>
+                    <li>Role - <span>Web and Mobile Developer</span></li>
+                    <!-- <li>View Online - <span><a href="https://www.kinghillstravels.com/" target="_blank" rel="noreferrer">Web Portal</a></span>,&nbsp;<span><a href="https://play.google.com/store/apps/details?id=com.kinghillstravels" target="_blank" rel="noreferrer">Mobile</a></span></li> -->
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <!-- <li class="project-item active" data-filter-item data-category="applications" data-project-item>
+              <a href="#" class="project-link">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/nexus-mobile.png" alt="Nexus FinTrade" loading="lazy">
+                </figure>
+                <h3 class="project-title">Nexus FinTrade</h3>
+                <p class="project-category">Applications</p>
+              </a>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>Trading APP - Nexus FinTrade</h3>
+                  <p>
+                    Built a mobile trading experience for CFD users with clear chart navigation, faster order placement,
+                    and improved account management screens. Focused on stability and usability under live market
+                    conditions to support day-to-day trading workflows.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>4 Feb 2022</span></li>
+                    <li>Technologies used - <span>Flutter</span></li>
+                    <li>Role - <span>Mobile APP Developer</span></li>
+                    <li>View Online - <span><a href="https://play.google.com/store/apps/details?id=com.nexusft.fintrade" target="_blank" rel="noreferrer">Nexus</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </li> -->
+
+            <li class="project-item active" data-filter-item data-category="web development" data-project-item>
+              <a href="#" class="project-link">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/misfitsnft.png" alt="Misfitsnft" loading="lazy">
+                </figure>
+                <h3 class="project-title">Misfitsnft</h3>
+                <p class="project-category">Web development</p>
+              </a>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>Misfitsnft - NFT</h3>
+                  <p>
+                    Built a responsive NFT experience covering wallet onboarding, mint flows, and collection browsing.
+                    Implemented Solidity smart contracts and web3 integration with a focus on transaction clarity, error
+                    handling, and a cleaner UX for first-time Web3 users.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>4 Sep 2020</span></li>
+                    <li>Technologies used - <span>React, Ether.js, Node.js, Solidity</span></li>
+                    <li>Role - <span>Web and Web3 Developer, Smart Contract Developer</span></li>
+                    <!-- <li>View Online - <span><a href="https://www.misfitsnft.co/" target="_blank" rel="noreferrer">Misfitsnft</a></span></li> -->
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications" data-project-item>
+              <a href="#" class="project-link">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/manufacturee-mobile.png" alt="Manufacturer" loading="lazy">
+                </figure>
+                <h3 class="project-title">Manufacturer</h3>
+                <p class="project-category">Applications</p>
+              </a>
+              <div class="project-details">
+                <div class="project-detail-description">
+                  <h3>Manufacturer (iOS, Android) - Protein</h3>
+                  <p>
+                    Built a cross-platform subscription app for healthy meal plans with a stronger purchase flow,
+                    personalized plans, and repeat-order support. Helped shape mobile architecture and backend
+                    integrations for scalable catalog, order, and fulfillment operations.
+                  </p>
+                </div>
+                <div class="project-detail-info">
+                  <ul>
+                    <li>Created - <span>4 Sep 2020</span></li>
+                    <li>Technologies used - <span>React Native, Cross-platform, Django, PostgreSQL, AWS</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <!-- <li>View Online - <span><a href="https://apps.apple.com/us/app/protein-%D8%A8%D8%B1%D9%88%D8%AA%D9%8A%D9%86/id1620156748" target="_blank" rel="noreferrer">iOS</a></span>,&nbsp;<span><a href="https://play.google.com/store/apps/details?id=com.binaryapptech.protein" target="_blank" rel="noreferrer">Android</a></span></li> -->
+                  </ul>
+                </div>
+              </div>
             </li>
 
           </ul>
@@ -936,202 +951,6 @@
         </section>
 
       </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
 
       <!--
         - #CONTACT
@@ -1146,7 +965,7 @@
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199043.03328973944!2d103.7041650568025!3d1.314339290911971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a8a874342d%3A0x1a4f1f9d3c8ed0f0!2sSingapore!5e0!3m2!1sen!2ssg!4v1710200000000!5m2!1sen!2ssg"
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
@@ -1174,16 +993,27 @@
 
         </section>
 
+        <!-- Direct contact section hidden per request -->
+
       </article>
 
     </div>
 
+    <div class="portfolio-modal" data-portfolio-modal>
+      <div class="portfolio-modal-overlay" data-portfolio-overlay></div>
+      <section class="portfolio-modal-content">
+        <button class="portfolio-modal-close" type="button" data-portfolio-close>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+        <figure class="portfolio-modal-thumb">
+          <img src="./assets/images/project-1.jpg" alt="Project preview" data-portfolio-thumb>
+        </figure>
+        <h3 class="portfolio-modal-title" data-portfolio-title>Project title</h3>
+        <div class="portfolio-modal-body" data-portfolio-body></div>
+      </section>
+    </div>
+
   </main>
-
-
-
-
-
 
   <!--
     - custom js link
